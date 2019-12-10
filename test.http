@@ -1,0 +1,23 @@
+
+POST https://gccjsav1cb.execute-api.us-east-1.amazonaws.com/dev/v1/cars
+
+{
+  "make": "Audi",
+  "model": "A8",
+  "year": "2016"
+}
+###
+GET https://gccjsav1cb.execute-api.us-east-1.amazonaws.com/dev/v1/cars
+
+###
+GET https://gccjsav1cb.execute-api.us-east-1.amazonaws.com/dev/v1/cars/{1d1fc351-9de5-4d08-a419-9bbfaebdf85b}
+
+###
+PUT https://gccjsav1cb.execute-api.us-east-1.amazonaws.com/dev/v1/cars/{"1d1fc351-9de5-4d08-a419-9bbfaebdf85b"}
+
+{
+  "year": "1997"
+}
+###
+DELETE https://gccjsav1cb.execute-api.us-east-1.amazonaws.com/dev/v1/cars/{1d1fc351-9de5-4d08-a419-9bbfaebdf85b}
+
