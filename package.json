@@ -41,7 +41,7 @@
   "author": "Sean Paul Campbell <sean.campbell13@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "2.585.0",
+    "aws-sdk": "2.814.0",
     "ramda": "0.26.1",
     "uuid": "3.3.3"
   }
